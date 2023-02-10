@@ -3,7 +3,7 @@ import time
 from tkinter import *
 from tkinter import ttk
 import gc
-import Jaiden
+import json
 
 
 sensitivity = 0.288
