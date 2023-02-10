@@ -9,7 +9,7 @@ import json
 sensitivity = 0.288
 
 
-gun_dict = jaiden.load(open("RecoilTables", "r"))
+gun_dict = json.load(open("RecoilTables", "r"))
 
 # ~~Gun Timers ~~ #
 AssaultRifleTime = 0.001
